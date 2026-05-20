@@ -12,7 +12,7 @@
                 
                 <form action="/logout" method="POST">
                     @csrf
-                    <button type="submit" class="text-sm font-semibold text-muted-foreground">Logout</button>
+                    <button type="submit" class="text-sm font-semibold text-muted-foreground" data-test="logout-button">Logout</button>
                 </form>
 
             @endauth
